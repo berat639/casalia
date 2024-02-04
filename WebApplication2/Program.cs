@@ -17,8 +17,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 var provider = new FileExtensionContentTypeProvider();
-provider.Mappings[".glb"] = "model/gltf-binary";
-provider.Mappings[".usdz"] = "model/usd";
+provider.Mappings[".glb"] = "model/gltf-binary"; 
+provider.Mappings[".usdz"] = "model/vnd.usdz+zip";
+ 
 
 app.UseStaticFiles(new StaticFileOptions
 {

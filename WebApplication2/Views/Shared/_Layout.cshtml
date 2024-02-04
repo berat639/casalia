@@ -71,7 +71,7 @@
 				<div class="wrap_header trans-0-3">
 					<!-- Logo -->
 					<div class="logo">
-						<a href="index.html">
+						<a href="~/TR/index">
 							<img src="../Content/images/icons/logo.svg" alt="IMG-LOGO" data-logofixed="../Content/images/icons/logo2.svg">
 						</a>
 					</div>
@@ -80,34 +80,34 @@
 					<div class="wrap_menu p-l-45 p-l-0-xl">
 						<nav class="menu">
 							<ul class="main_menu">
+								 
 								<li>
-									<a href="~/Tr/TinyHouseDetay">Model Detay</a>
+									<a href="#bizkimiz" onclick="navigateToSection('index#bizkimiz')">Biz Kimiz</a>
 								</li>
 								<li>
-									<a href="#">Biz Kimiz</a>
+									<a href="#tanitimvideo" onclick="navigateToSection('index#tanitimvideo')">Tanıtım Video</a>
 								</li>
 								<li>
-									<a href="#">Tanıtım Video</a>
+									<a href="#nedenbiz" onclick="navigateToSection('index#nedenbiz')">Neden Biz</a>
 								</li>
 								<li>
-									<a href="#">Neden Biz</a>
+									<a href="#modellerimiz" onclick="navigateToSection('index#modellerimiz')">Modellerimiz</a>
 								</li>
 								<li>
-									<a href="#">Galeri</a>
-								</li>
-								<li>
-									<a href="#">İletişim</a>
+									<a href="#iletisim" onclick="navigateToSection('index#iletisim')">İletişim</a>
 								</li>
 							</ul>
 						</nav>
 					</div>
 
 					<!-- Social -->
-					<div class="social flex-w flex-l-m p-r-20">
-						<a href="https://www.instagram.com/casaliatinyhouses/?hl=tr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-						<a href="#"><i class="fa fa-phone m-l-21" aria-hidden="true"></i><span class="d-none d-md-block">	0532 681 86 84</span></a>
-
-						<button class="btn-show-sidebar m-l-33 trans-0-4 d-block d-md-none"></button>
+					<div class="social d-block p-r-20">
+						<a href="https://www.instagram.com/casaliatinyhouses/?hl=tr" class="d-inline-block"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="tel:+905326818684" class="d-inline-block"><i class="fa fa-phone m-l-21" aria-hidden="true"></i></a>
+						<a href="tel:+905326818684" class="d-inline-block">
+							<span class="d-none d-md-block">	0532 681 86 84</span>
+						</a>
+						<button class="btn-show-sidebar m-l-33 trans-0-4 d-inline-block d-md-none"></button>
 					</div>
 				</div>
 			</div>
@@ -121,56 +121,38 @@
 
 		<!-- - -->
 		<ul class="menu-sidebar p-t-95 p-b-70">
-			<li class="t-center m-b-13">
-				<a href="~/TR/index" class="txt19">TR</a>
-				<a href="~/EN/index" class="txt19">EN</a>
-			</li>
-
 			 
+			<li class="t-center m-b-13">
+				<a href="#bizkimiz">Biz Kimiz</a>
+			</li>
+			<li class="t-center m-b-13">
+				<a href="#tanitimvideo">Tanıtım Video</a>
+			</li>
+			<li class="t-center m-b-13">
+				<a href="#nedenbiz">Neden Biz</a>
+			</li>
+			<li class="t-center m-b-13">
+				<a href="#modellerimiz">Modellerimiz</a>
+			</li>
+			<li class="t-center m-b-13">
+				<a href="#iletisim">İletişim</a>
+			</li>
 		</ul>
 
 		<!-- - -->
-		<div class="gallery-sidebar t-center p-l-60 p-r-60 p-b-40">
-			<!-- - -->
-			<h4 class="txt20 m-b-33">
-				Menü
-			</h4>
-
-			<!-- Gallery -->
-			<div class="wrap-gallery-sidebar flex-w">
-				<a class="item-gallery-sidebar wrap-pic-w" href="../Content/images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
-					<img src="../Content/images/photo-gallery-thumb-01.jpg" alt="GALLERY">
-				</a>
-
-			 
-			</div>
-		</div>
+	 
 	</aside>
 
 
 	@RenderBody()
 
 	<!-- Sign up -->
-	<div class="section-signup bg1-pattern p-t-85 p-b-85">
-		<form class="flex-c-m flex-w flex-col-c-m-lg p-l-5 p-r-5">
-			 
-
-			<div class="wrap-input-signup size17 bo2 bo-rad-10 bgwhite pos-relative txt10 m-10">
-				<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email-address" placeholder="Email Adrress">
-				<i class="fa fa-envelope ab-r-m m-r-18" aria-hidden="true"></i>
-			</div>
-
-			<!-- Button3 -->
-			<button type="submit" class="btn3 flex-c-m size18 txt11 trans-0-4 m-10">
-				BİLDİRİM AL
-			</button>
-		</form>
-	</div>
+	 
 	<!-- Footer -->
 	<footer class="bg1">
 		<div class="container p-t-40 p-b-70">
 			<div class="row">
-				<div class="col-sm-6 col-md-4 p-t-50">
+				<div class="col-sm-6 col-md-4 p-t-50" id="iletisim">
 					<!-- - -->
 					<h4 class="txt13 m-b-33">
 						İLETİŞİM
@@ -178,20 +160,24 @@
 
 					<ul class="m-b-70">
 						<li class="txt14 m-b-14">
+							<a href="#">
 							<i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
-						Adres: Aşağı Yurtçu Köyü Emir sultan Caddesi No: 121 Etimesgut / Ankara 
-
+						Adres: Aşağı Yurtçu Köyü Emir sultan Caddesi No: 121 Etimesgut / Ankara
+							</a>
 						</li>
 
 						<li class="txt14 m-b-14">
+							<a href="tel:+905326818684">
 							<i class="fa fa-phone fs-16 dis-inline-block size19" aria-hidden="true"></i>
 						Telefon No: 0532 681 86 84
-
+							</a>
 						</li>
 
 						<li class="txt14 m-b-14">
+							<a href="#">
 							<i class="fa fa-envelope fs-13 dis-inline-block size19" aria-hidden="true"></i>
 							Mail: info@casaliatinyhouses.com
+							</a>
 						</li>
 					</ul>
 
@@ -203,35 +189,9 @@
 			</div>
 		</div>
 
-		<div class="end-footer bg2">
-			<div class="container">
-				<div class="flex-sb-m flex-w p-t-22 p-b-22">
-					<div class="p-t-5 p-b-5">
-						<a href="#" class="fs-15 c-white"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-facebook m-l-18" aria-hidden="true"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
-					</div>
-
-					 
-				</div>
-			</div>
-		</div>
+		 
 	</footer>
-
-	<!-- Modal Video 01-->
-	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
-
-		<div class="modal-dialog" role="document" data-dismiss="modal">
-			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
-
-			<div class="wrap-video-mo-01">
-				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
-				<div class="video-mo-01">
-					<iframe src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
+	 
 	<!-- Back to top -->
 	<div class="btn-back-to-top bg0-hov" id="myBtn">
 		<span class="symbol-btn-back-to-top">
@@ -241,8 +201,29 @@
 
 	<!-- Container Selection1 -->
 	<div id="dropDownSelect1"></div>
+	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
 
+		<div class="modal-dialog" role="document" data-dismiss="modal">
+			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
 
+			<div class="wrap-video-mo-01">
+				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
+				<div class="video-mo-01">
+					<iframe src="https://www.youtube.com/embed/Cf-ZV2xd_zo?si=sow8OTGTNSKJacw5?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+
+		function navigateToSection(fragment) {
+			// Sayfa başlangıç URL'si
+			var baseUrl = window.location.origin + "/Tr";
+
+			// Yönlendirme işlemi
+			window.location.href = baseUrl + '/' + fragment;
+		}
+	</script>
 
     <script type="text/javascript" src="~/Content/vendor/jquery/jquery-3.2.1.min.js"></script>
   
@@ -265,8 +246,10 @@
     </script>
   
     <script type="text/javascript" src="~/Content/vendor/countdowntime/countdowntime.js"></script>
-  
-    <script type="text/javascript" src="~/Content/vendor/lightbox2-/js/lightbox.min.js"></script>
+   
+	<script type="text/javascript" src="~/Content/vendor/lightbox2/js/lightbox.min.js"></script>
+	<!--===============================================================================================-->
+	<script type="text/javascript" src="~/Content/vendor/isotope/isotope.pkgd.min.js"></script>
   
     <script type="text/javascript" src="../Content/js/main.js"></script>
 </body>

@@ -51,6 +51,9 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   font-family: Montserrat-Regular;
   src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
 }
+html {
+    scroll-behavior: smooth;
+}
 
 @font-face {
   font-family: Montserrat-Bold;
@@ -476,20 +479,32 @@ input[type="date" i] {
   -ms-box-shadow: none;
 }
 
+@media screen and (max-width: 900px) and (min-width: 350px) {
+    model-viewer {
+        padding:0 20px;
+        width: 47vh;
+    } 
+}
+@media screen and (max-width: 5000px) and (min-width: 900px) {
+    model-viewer {
+        width: 130vh;
+        height: 50vh;
+    }
+}
 
 
+ 
 /*[ Header ]
 ///////////////////////////////////////////////////////////
 */
-
 .wrap-menu-header {
-  position: absolute;
-  width: 100%;
-  height: 120px;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  border-top: 5px solid #ec1d25;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-top: 5px solid orangered;
 }
 
 .wrap_header {
@@ -955,7 +970,7 @@ input[type="date" i] {
 
 @media (max-width: 576px) {
     .wrap-content-slide1 .tit1 {
-        font-size: 2.063rem;
+        font-size: 1.863rem;
     }
 
   .wrap-content-slide1 .txt1 {
@@ -1196,7 +1211,7 @@ input[type="date" i] {
 
 /* ------------------------------------ */
 .effect1 {
-  background-color: #cf2227;
+  background-color: orangered;
   opacity: 0.9;
   position: relative;
 }
@@ -1317,10 +1332,10 @@ body {padding-right: 0px !important;}
 }
 
 .wrap-video-mo-01 {
-  width: 854px;
-  height: auto;
-  position: relative;
-  margin: 15px;
+    width: 854px;
+    min-height: 70%;
+    position: relative;
+    margin: 15px;
 }
 
 .video-mo-01 {

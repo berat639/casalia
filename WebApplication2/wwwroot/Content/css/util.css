@@ -2963,8 +2963,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	word-spacing: 10px;
 }
 
-.tit2 {
-	font-family: Courgette;
+.tit2 { 
 	font-size: 30px;
 	line-height: 1.2;
 	color: #d61c22;
@@ -2983,7 +2982,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .tit4 {
 	font-family: Poppins;
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 2rem;
 	line-height: 1.2;
 	color: white;
 	text-transform: uppercase;
@@ -2994,7 +2993,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .tit5 {
 	font-family: Poppins;
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 2rem;
 	line-height: 1.2;
 	color: #222222;
 	text-transform: uppercase;
