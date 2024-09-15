@@ -2963,10 +2963,10 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	word-spacing: 10px;
 }
 
-.tit2 { 
+.tit2 {
 	font-size: 30px;
 	line-height: 1.2;
-	color: #d61c22;
+	color: #223a5e;
 }
 
 .tit3 {
@@ -3077,7 +3077,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 1.1;
-	color: #ec1d25;
+	color: #223a5e;
 	text-transform: uppercase;
 }
 
@@ -3112,7 +3112,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Montserrat;
 	font-weight: 700;
 	font-size: 50px;
-	color: #ec1d25;
+	color: #223a5e;
 	line-height: 1.1;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -3180,7 +3180,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Montserrat;
 	font-weight: 400;
 	font-size: 13px;
-	color: #ec1d25;
+	color: #223a5e;
 	line-height: 1.7;
 }
 
@@ -3257,7 +3257,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 1.7;
-	color: #ec1d25;
+	color: #223a5e;
 }
 
 .txt25 {
@@ -3364,12 +3364,12 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 /*[ Color ]
 -----------------------------------------------------------
 */
-.color0 {color: #ec1d25;}
+.color0 {color: #223a5e;}
 .color1 {color: #222222;}
 .color2 {color: #cccccc;}
 .color3 {color: #333333;}
 
-.color0-hov:hover {color: #ec1d25;}
+.color0-hov:hover {color: #223a5e;}
 
 
 
@@ -3564,11 +3564,11 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 /*[ Background Color ]
 -----------------------------------------------------------
 */
-.bg0 {background-color: #ec1d25;}
+.bg0 {background-color: #223a5e;}
 .bg1 {background-color: #222222;}
 .bg2 {background-color: #111111;}
 
-.bg0-hov:hover {background-color: #ec1d25;}
+.bg0-hov:hover {background-color: #223a5e;}
 
 .bg1-overlay {background-color: rgba(0,0,0,0.35);}
 
@@ -3578,7 +3578,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 */
 .bo1 {border: 1px solid #ebebeb;}
 .bo2 {border: 2px solid #d9d9d9;}
-.bo4 {border: 4px solid #ec1d25;}
+.bo4 {border: 4px solid #223a5e;}
 
 .bo5-b {border-bottom: 1px solid #e6e6e6;}
 .bo5-r {border-right: 1px solid #e6e6e6;}
