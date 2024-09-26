@@ -8,7 +8,7 @@ namespace WebApplication2.Controllers
         {
             return View();
         }
-		public IActionResult TinyHouseDetay()
+		public IActionResult vizyonmisyon()
 		{
 			return View();
 		}

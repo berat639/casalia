@@ -1010,14 +1010,16 @@ input[type="date" i] {
 ///////////////////////////////////////////////////////////
 */
 .btn2 {
-  background-color: white;
-  border-radius: 10px;
-  opacity: 0.9;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.7;
 }
-
+.pic-blo4 img{
+    height:20em;
+}
 .btn2:hover {
-  background-color: #223a5e;
-  color: white;
+    background-color: #223a5e;
+    color: white;
 }
 
 
@@ -1640,4 +1642,14 @@ body {padding-right: 0px !important;}
   left: 20px;
   border-radius: 10px;
   background-color: #223a5e;
+}
+
+
+.item-ourmenu img{
+    opacity:0.2;
+}
+.item-ourmenu {
+    background: #223a5e !important;
+    display: flex;
+    height: 17em;
 }

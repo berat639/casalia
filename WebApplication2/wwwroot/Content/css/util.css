@@ -3530,7 +3530,9 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	width: 180px;
 	height: 40px;
 }
-
+.heightr {
+	height: 20em
+}
 .size32 {
 	max-width: 868px;
 }
@@ -3710,17 +3712,14 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 -----------------------------------------------------------
 */
 .gradient1 {
-  background: -webkit-linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0));
-  background: -o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)); 
-  background: -moz-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
-  background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0));
-}
-
-
-/*[ Background pattern ]
+	background: -webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+	background: -o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+	background: -moz-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+	background: linear-gradient(rgb(34 58 94), rgba(0, 0, 0, 0));
+	/*[ Background pattern ]
 -----------------------------------------------------------
 */
-.bg1-pattern {
+	.bg1-pattern {
 	background-image: url(../images/icons/pattern1.png);
   	background-repeat: repeat;
 }
